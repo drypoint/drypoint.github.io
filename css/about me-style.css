@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.section-about1 {
+    padding: 50px;
+    padding-bottom: 0px;
+
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 4fr 1fr 6fr ;
+    grid-template-areas:"about-logo . . ."
+        "section-about-name section-about-image . section-about-text";
+    justify-content: center;
+    align-content: center;
+}
+
+.section-about2 {
+    padding-bottom: 0px;
+ padding: 40px;
+    padding-top: 10px;
+   display: grid;
+    grid-column-gap: 10px;
+ font-size: 30px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: " section-about-logo1  section-about-logo2  section-about-logo3" 
+        "section-about-logoname1 section-about-logoname2 section-about-logoname3";
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.section-about-name {
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    grid-area: section-about-name;
+
+}
+
+
+
+.section-about-text {
+  align-self: center;
+    font-size: 2vw;
+    grid-area: section-about-text;
+}
+
+.section-about-image {
+    grid-area: section-about-image;
+    }
+
+.section-about-logo1 {
+    grid-area: section-about-logo1;
+    cursor:none;
+    
+}
+
+.section-about-logoname1 {
+    grid-area: section-about-logoname1;
+    
+}
+
+.section-about-logo2 {
+    grid-area: section-about-logo2;
+    cursor:none;
+   
+}
+
+.section-about-logoname2 {
+    grid-area: section-about-logoname2;
+}
+
+.section-about-logo3 {
+    grid-area: section-about-logo3;
+    cursor:none;
+}
+
+.section-about-logoname3 {
+    grid-area: section-about-logoname3;
+}
+
+
+

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Neucha', cursive;
+
+}
+
+.header-nav {
+    background-color: black;
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    grid-gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-content: center;
+    min-width: 400px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
+    cursor: none;
+    align-self: center;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+
+    color: white;
+}
+
+
+
+
+.section-home {
+    padding: 0;
+    margin: 0;
+    background-image: url(drypoint-1.jpg);
+    background-position: center;
+    display: grid;
+    height: 557px;
+
+}
+
+.section-text {
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 90px;
+    align-content: center;
+}

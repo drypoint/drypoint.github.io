@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.section-tech1 {
+    height: 100vh;
+    padding: 50px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 6fr 1f 4fr;
+    grid-template-areas: "tech-logo . . ."
+        "section-tech-name section-tech-text . section-tech-image"
+        ". . . section-tech-description";
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.section-tech-name {
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    grid-area: section-tech-name;
+
+}
+
+
+
+.section-tech-text {
+    font-size: 2.5vw;
+    grid-area: section-tech-text;
+}
+
+.section-tech-image {
+    grid-area: section-tech-image;
+}
+
+.section-tech-description {
+
+    grid-area: section-tech-description;
+}
+
+
+
+
+
+
+
+.section-tech2 {
+    height: 100vh;
+    background-color: black;
+    padding: 50px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 4fr 6fr;
+    grid-template-areas: "tech-logo2 . ."
+        "section-tech-name2 section-tech-image2 section-tech-text2"
+        ". section-tech-description2 .";
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.tech-logo2 {
+    grid-area: tech-logo2;
+}
+
+.section-tech-name2 {
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: white;
+    grid-area: section-tech-name2;
+
+}
+
+.section-tech-text2 {
+    font-size: 2.5vw;
+    grid-area: section-tech-text2;
+    color: white;
+
+}
+
+.section-tech-image2 {
+    grid-area: section-tech-image2;
+
+}
+
+.section-tech-description2 {
+    grid-area: section-tech-description2;
+    color: white;
+}
+
+
+
+
+
+.section-tech3 {
+    height: 100vh;
+    padding: 50px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 6fr 4fr;
+    grid-template-areas: "tech-logo3 . ."
+        "section-tech-name3 section-tech-text3 section-tech-image3";
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.section-tech-name3 {
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    grid-area: section-tech-name3;
+
+}
+
+.section-tech-text3 {
+    font-size: 2.5vw;
+    grid-area: section-tech-text3;
+
+
+}
+
+.section-tech-image3 {
+    grid-area: section-tech-image3;
+
+}
+
+
+
+
+
+.section-tech4 {
+    height: 100vh;
+    background-color: black;
+    padding: 50px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 2fr 4fr 6fr;
+    grid-template-areas: "tech-logo4 . ."
+        "section-tech-name4 section-tech-image4 section-tech-text4"
+        ". section-tech-description4 . ";
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.section-tech-name4 {
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: white;
+    grid-area: section-tech-name4;
+
+}
+
+.section-tech-text4 {
+    font-size: 2.5vw;
+    grid-area: section-tech-text4;
+    color: white;
+
+}
+
+.section-tech-image4 {
+    grid-area: section-tech-image4;
+
+}
+
+
+.section-tech-description4 {
+    grid-area: section-tech-description4;
+    color: white;
+}
